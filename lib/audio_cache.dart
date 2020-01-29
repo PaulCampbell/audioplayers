@@ -62,7 +62,7 @@ class AudioCache {
 
   Future<File> fetchToMemory(String fileName) async {
     var path = await getTemporaryDirectory();
-    final file = File('${(await getTemporaryDirectory()).path}/$fileName');
+    final file = File(path.path + fileName);
     await file.create(recursive: true);
     return await file
         .writeAsBytes((await _fetchAsset(fileName)).buffer.asUint8List());

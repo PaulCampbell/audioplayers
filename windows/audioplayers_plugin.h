@@ -26,7 +26,7 @@
 extern "C" {
 #endif
 
-FLUTTER_PLUGIN_EXPORT void ExamplePluginRegisterWithRegistrar(
+FLUTTER_PLUGIN_EXPORT void AudioplayersPluginRegisterWithRegistrar(
     FlutterDesktopPluginRegistrarRef registrar);
 
 #if defined(__cplusplus)

@@ -21,6 +21,8 @@ dependencies:
   uuid: ^2.0.4
   path_provider: ^1.5.1
   path_provider_macos: ^0.0.1
+  path_provider_fde:
+    path: ../flutter-desktop-embedding/plugins/flutter_plugins/path_provider_fde
   flutter:
     sdk: flutter
 
@@ -35,4 +37,4 @@ dev_dependencies:
 
 environment:
   sdk: ">=2.2.2 <3.0.0"
-  flutter: ">=1.10.0 <2.0.0"
+  flutter: ">=1.6.0"
