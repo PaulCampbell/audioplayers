@@ -22,7 +22,7 @@ dependencies:
   path_provider: ^1.5.1
   path_provider_macos: ^0.0.1
   path_provider_fde:
-    path: ../flutter-desktop-embedding/plugins/flutter_plugins/path_provider_fde
+    path: ../path_provider_fde
   flutter:
     sdk: flutter
 
